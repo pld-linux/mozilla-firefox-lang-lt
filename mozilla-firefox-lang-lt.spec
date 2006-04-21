@@ -1,5 +1,5 @@
 
-%define         _lang		lt
+%define		_lang		lt
 
 Summary:	Lithuanian resources for Mozilla-firefox
 Summary(pl):	Litewskie pliki jêzykowe dla Mozilli-firefox
