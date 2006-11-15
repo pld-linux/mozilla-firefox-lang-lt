@@ -4,12 +4,12 @@
 Summary:	Lithuanian resources for Mozilla-firefox
 Summary(pl):	Litewskie pliki jêzykowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	1.5.0.6
+Version:	1.5.0.8
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	ec291ac72d8cc22b8111cdd749fe35c5
+# Source0-md5:	8609d1fe3ba20f27d088b9cc06b12e31
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires(post,postun):	mozilla-firefox >= %{version}
