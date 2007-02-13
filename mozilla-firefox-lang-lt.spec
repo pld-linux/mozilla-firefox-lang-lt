@@ -2,7 +2,7 @@
 %define		_lang		lt
 
 Summary:	Lithuanian resources for Mozilla-firefox
-Summary(pl.UTF-8):   Litewskie pliki językowe dla Mozilli-firefox
+Summary(pl.UTF-8):	Litewskie pliki językowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
 Version:	2.0.0.1
 Release:	1
