@@ -1,13 +1,13 @@
 %define		_lang		lt
-Summary:	Lithuanian resources for Mozilla-firefox
-Summary(pl.UTF-8):	Litewskie pliki językowe dla Mozilli-firefox
+Summary:	Lithuanian resources for Firefox
+Summary(pl.UTF-8):	Litewskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	8c557f9b2a39bc2c1630259c703fcc1f
+# Source0-md5:	033b3b5fcaf31b7d42dcdaf7397b854f
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Lithuanian resources for Mozilla-firefox.
+Lithuanian resources for Firefox.
 
 %description -l pl.UTF-8
-Litewskie pliki językowe dla Mozilli-firefox.
+Litewskie pliki językowe dla Firefoksa.
 
 %prep
 
